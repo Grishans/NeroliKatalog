@@ -1,10 +1,260 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neroli</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header__wrap">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="header__search">
+          <div class="header__adress">
+            <p>Донецк, Артема 119</p>
+            <a href="tel:+380713058391">+38(071)-305-83-91</a>
+          </div>
+          <div class="header__input">
+            <form action="">
+              <input type="text" placeholder="Название товара" />
+              <label for="search__btn"
+                ><img src="img/searchIcon.svg" alt=""
+              /></label>
+              <input type="submit" value="" id="search__btn" />
+            </form>
+          </div>
+        </div>
+        <div class="header__backet">
+          <a href="#0">
+            <img src="img/backetWhiteIcon.svg" alt="" />
+            <p>Корзина</p>
+          </a>
+        </div>
+      </div>
+      <div class="nav__wrap">
+        <nav>
+          <ul>
+            <li><a href="#0">Каталог</a></li>
+            <li><a href="#0">Акции</a></li>
+            <li><a href="#0">О нас</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="mainSlider__wrap">
+      <div class="mainSlider">
+        <div>
+          <a href="#">
+            <img src="img/sliderImg.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="img/sliderImg.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="img/sliderImg.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="brands">
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="brand__box">
+        <a href="#">
+          <img src="img/patnerImg.png" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="wrap categories__wrap">
+        <div class="cat__boxes">
+          <div class="cat__box">
+            <a href="#">
+              <img src="img/Category.png" alt="" />
+              <label class="catTagsHref catTagsHref__absolute">
+                <p>Парфюмерия</p>
+                <img src="img/arrRightIcon.svg" alt="" />
+              </label>
+            </a>
+          </div>
+          <div class="cat__box">
+            <a href="#">
+              <img src="img/Category.png" alt="" />
+              <label class="catTagsHref catTagsHref__absolute">
+                <p>Парфюмерия</p>
+                <img src="img/arrRightIcon.svg" alt="" />
+              </label>
+            </a>
+          </div>
+          <div class="cat__box">
+            <a href="#">
+              <img src="img/Category.png" alt="" />
+              <label class="catTagsHref catTagsHref__absolute">
+                <p>Парфюмерия</p>
+                <img src="img/arrRightIcon.svg" alt="" />
+              </label>
+            </a>
+          </div>
+        </div>
+        <div class="cat__tags">
+          <a href="#0" class="catTagsHref">Женский тег маленький</a>
+          <a href="#0" class="catTagsHref">Женский тег</a>
+          <a href="#0" class="catTagsHref">Мужской тег тут</a>
+          <a href="#0" class="catTagsHref">Тушь</a>
+          <a href="#0" class="catTagsHref">Женский тег</a>
+          <a href="#0" class="catTagsHref">Женский тег маленький</a>
+          <a href="#0" class="catTagsHref">Женский тег</a>
+          <a href="#0" class="catTagsHref">Мужской тег тут</a>
+          <a href="#0" class="catTagsHref">Тушь</a>
+          <a href="#0" class="catTagsHref">Женский тег</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hits">
+      <div class="wrap">
+        <div class="objectSlidesTemplate">
+          <div class="SlidesTemplate__title">
+            <h1>Наши хиты</h1>
+            <a href="#">
+              <p>В каталог</p>
+              <img src="img/arrRightIcon.svg" alt="" />
+            </a>
+          </div>
+          <div class="objectSlides">
+            <div>
+              <div class="productCard">
+                <div class="productCard__img">
+                  <img src="img/product.png" alt="">
+                </div>
+                <div class="productCard__data">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__wrap">
+        <div class="footer__sn">
+          <div class="footer__sn__title">
+            <p>Присоединяйтесь к нам</p>
+          </div>
+          <div class="footer__sn__sn">
+            <a href="#"><img src="img/instaIcon.png" alt="" /></a>
+            <a href="#"><img src="img/vkIcon.png" alt="" /></a>
+            <a href="#"><img src="img/twitterIcon.png" alt="" /></a>
+            <a href="#"><img src="img/youtubeIcon.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="footer__nav">
+          <h1>Интернет-магазин</h1>
+          <a href="#">Каталог</a>
+          <a href="#">Акции</a>
+        </div>
+        <div class="footer__nav">
+          <h1>Покупателню</h1>
+          <a href="#">О нас</a>
+        </div>
+        <div class="footer__contacts">
+          <h1>Контакты</h1>
+          <div class="footer__contacts__box">
+            <img src="img/telIcon.svg" alt="" />
+            <a href="tel:+380713058391">+38(071)-305-83-91</a>
+          </div>
+          <div class="footer__contacts__box">
+            <img src="img/mailIcon.svg" alt="" />
+            <a href="mail:">Почта</a>
+          </div>
+          <div class="footer__contacts__box">
+            <img src="img/telIcon.svg" alt="" />
+            <p>Донецк, Артема 119</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__wrap footer__wrap__bottom">
+        <p>© 2020 <a href="#">ITD Company</a> . All rights reserved</p>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/slider.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
